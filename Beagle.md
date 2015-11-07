@@ -14,14 +14,18 @@ genotype calling, genotype phasing, ジェノタイピングされていない�
 - Beagle 4.1の場合、Java version 8が必要  
 - 以下のコマンドでJavaのバージョンを確認　　
 
-｀java -version｀　
+`java -version`　
 
-- beagle.21Oct15.abc.jar のダウンロード
+- beagle.21Oct15.abc.jar のダウンロード  
+
 [HPからのBeagleのダウンロード](https://faculty.washington.edu/browning/beagle/beagle.html#download)
-- wget を使う方法
+- wget を使う方法  
+
 `wget http://faculty.washington.edu/browning/beagle/beagle.21Oct15.abc.jar`　　
 
 - [Beagleのマニュアル](https://faculty.washington.edu/browning/beagle/beagle_4.1_21Oct15.pdf)
+
+***
 
 #### Beagleの入力ファイル
 - vcfおよびvcf.gzを利用可能
@@ -29,15 +33,20 @@ genotype calling, genotype phasing, ジェノタイピングされていない�
 vcf format v4.3に関しては[ここ](https://samtools.github.io/hts-specs/VCFv4.3.pdf)で確認
 - Beagleで利用するためにはGTあるいはGLのFORMATが必要
 
-GT : genotype, encoded as allele values separated by either of / or |. The allele values are 0 for the reference
+__GT__ : genotype, encoded as allele values separated by either of / or |. The allele values are 0 for the reference
 allele (what is in the REF field), 1 for the first allele listed in ALT, 2 for the second allele list in ALT and
 so on. F　　
 
-GL : genotype likelihoods comprised of comma separated floating point log10-scaled likelihoods for all possible　genotypes given the set of alleles defined in the REF and ALT fields.
+__GL__ : genotype likelihoods comprised of comma separated floating point log10-scaled likelihoods for all possible　genotypes given the set of alleles defined in the REF and ALT fields.
+
+- 染色体ごとにvcfを分けてから実行すると良い  
+
+***
+
 #### Beagleの実行
 
 
--  Running test analysis with \"gt=\" argument  
+-  Format GT vcf file
 
 `java -jar beagle.21Oct15.abc.jar gt="test.21Oct15.abc.vcf.gz" out="out.gt"`
 
@@ -45,7 +54,16 @@ GL : genotype likelihoods comprised of comma separated floating point log10-scal
 -  Running test analysis with \"ref=\" argument  
 -  ref=でリファレンスパネルのvcf fileを指定、gt=でgt fieldのあるvcf fileを指定
 
-`java -jar beagle.21Oct15.abc.jar ref=ref.21Oct15.abc.vcf.gz gt=target.21Oct15.abc.vcf.gz out=out.ref`
+`java -jar beagle.21Oct15.abc.jar ref=ref.21Oct15.abc.vcf.gz gt=target.21Oct15.abc.vcf.gz out=out.ref`  
+
+- Format GL vcf file  
+
+`java -jar beagle.21Oct15.abc.jar gl="test.21Oct15.abc.vcf.gz" out="out.gl"`
+
+### sorghum vcf file
+phytozome sorghum v.2.1
+  - SNP数 3,699,951  
+  - 22系統
 
 ***
 

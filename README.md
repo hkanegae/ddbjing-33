@@ -17,15 +17,17 @@
 SSRマーカーやSNPマーカーが多く利用されていますが、最近ではNGSを利用したジェノタイピングが増えています。  
 RAD-seqデータにおける遺伝子型Imputationの実際について紹介します。
 
+発表資料に関してはこちらからダウンロードしてください。
+
 ***
 ### 講習の予定
 - 様々な分子マーカーと特徴
-- Imputationについて  
+- [Imputationについて](https://github.com/hkanegae/ddbjing-33#1imputationとは)  
   - なぜ Imputationが必要か？
   - Reference panelの利用について
 - Imputationのソフトについて  
-  - Tassel
-  - Beagle
+  - [Tasselの使い方](https://github.com/hkanegae/ddbjing-33/blob/master/Tassel.md)
+  - [Beagleの使い方](https://github.com/hkanegae/ddbjing-33/blob/master/Beagle.md)
 
 ***
 ### 様々な分子マーカーと特徴
@@ -37,21 +39,25 @@ RAD-seqデータにおける遺伝子型Imputationの実際について紹介し
 
 NGSを用いることで、多数のサンプルをジェノタイピングすることが可能となりました。  
 
-たとえば、RAD­-Seqでは低コスト・高精度にSNP部位を検出することが可能ですが、ゲノムの一部しか読むことが出来ず、欠測率も高くなります。  
+たとえば、RAD­-seqでは低コスト・高精度にSNP部位を検出することが可能ですが、ゲノムの一部しか読むことが出来ず、また欠測率も高くなります。  
 
 そこで、遺伝子型予測ソフトを用い、高精度に遺伝子型を予測することでGSの予測精度や、GWASの検出力を高めることを目的としています。
+
+GWASやGSに関しては[こちら](http://papaya.ab.a.u-tokyo.ac.jp/sandbox/groups/iwata/wiki/984fd/attachments/1a879/ikushu2012f_ws_iwata_01.pdf?sessionID=af156069a86ea9d33c904040aab88011998880ee)を参照してください。
 
 ***
 ### 2.Imputationの手法  
 
-1.連鎖地図および物理地図のない場合のImputation
+1.連鎖地図および物理地図のない場合のImputation  
+
 RのmisForestを利用　　
   [Package ‘missForest’](https://cran.r-project.org/web/packages/missForest/missForest.pdf)　　
 
 random forestを用いて、欠測値を予測
 
-2.物理地図のない場合のImputation
-Rのqtlを利用
+2.物理地図のない場合のImputation  
+
+Rのqtlを利用し、連鎖地図を作成
 [Package ‘qtl‘](http://www.rqtl.org/manual/qtl-manual.pdf)
 
 遺伝距離に基づいて、欠測値を予測
@@ -61,8 +67,8 @@ Rのqtlを利用
 reference genomeがある場合は、様々なImputationのためのソフトを利用することが可能です。　　
 
 今回はその中でTasselおよびBeagleを紹介します。
-  1. Tassel
-  2. Beagle
+  1. [Tassel](https://github.com/hkanegae/ddbjing-33/blob/master/Tassel.md)
+  2. [Beagle](https://github.com/hkanegae/ddbjing-33/blob/master/Beagle.md)
 
   ***
 
