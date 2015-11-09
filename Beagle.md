@@ -35,7 +35,7 @@ vcf format v4.3に関しては[ここ](https://samtools.github.io/hts-specs/VCFv
 
 __GT__ : genotype, encoded as allele values separated by either of / or |. The allele values are 0 for the reference
 allele (what is in the REF field), 1 for the first allele listed in ALT, 2 for the second allele list in ALT and
-so on. F　　
+so on.  　
 
 __GL__ : genotype likelihoods comprised of comma separated floating point log10-scaled likelihoods for all possible　genotypes given the set of alleles defined in the REF and ALT fields.
 
