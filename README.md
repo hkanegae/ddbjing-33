@@ -17,7 +17,9 @@
 SSRマーカーやSNPマーカーが多く利用されていますが、最近ではNGSを利用したジェノタイピングが増えています。  
 RAD-seqデータにおける遺伝子型Imputationの実際について紹介します。
 
-## 講義資料に関しては[google drive](https://drive.google.com/file/d/0B-NbQqcD0i0nM0pQMzd5RnQwU2c/view?usp=sharing)からダウンロード、あるいは[github](https://github.com/hkanegae/ddbjing-33/blob/master/DDBJing151111_hkanegae.pdf)からダウンロードしてください。  
+### 講義資料に関しては
+### [google drive](https://drive.google.com/file/d/0B-NbQqcD0i0nM0pQMzd5RnQwU2c/view?usp=sharing)、あるいは[github](https://github.com/hkanegae/ddbjing-33/blob/master/DDBJing151111_hkanegae.pdf)からダウンロードしてください。  
+[slideshare](http://www.slideshare.net/HiromiKanegae/ngs-54890142)でも利用可能です。  
 
 
 __このページは資料を公開した15.11.09以降も、必要に応じて修正する可能性がございます。__  
