@@ -19,8 +19,8 @@ RAD-seqデータにおける遺伝子型Imputationの実際について紹介し
 
 講義資料に関しては[こちら](https://drive.google.com/file/d/0B-NbQqcD0i0nM0pQMzd5RnQwU2c/view?usp=sharing)からダウンロードしてください。
 
-このページは資料を公開した15.11.09以降も、必要に応じて修正する可能性がございます。  
-ご迷惑をおかけ致しますが、よろしくお願い致します。
+__このページは資料を公開した15.11.09以降も、必要に応じて修正する可能性がございます。__  
+__ご迷惑をおかけ致しますが、よろしくお願い致します。__
 
 ***
 ### 講習の予定
@@ -66,7 +66,7 @@ NGSを用いることで、多数のサンプルをジェノタイピングす�
 また、実験ごとに得られるマーカーが異なる場合があります。
 すべてのマーカーを利用して解析を行うためには、imputationが必要です。　
 
-![alt text](https://github.com/hkanegae/ddbjing-33/blob/master/imputation.jpg)
+![imputation](https://github.com/hkanegae/ddbjing-33/blob/master/imputation.jpg)
 
 - マーカーセットが異なるデータを用いる場合  
 
