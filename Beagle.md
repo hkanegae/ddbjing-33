@@ -25,6 +25,18 @@ genotype calling, genotype phasing, ジェノタイピングされていない�
 
 - [Beagleのマニュアル](https://faculty.washington.edu/browning/beagle/beagle_4.1_21Oct15.pdf)
 
+- PATHを通す  
+PATHを通すには  
+
+`export PATH=$PATH:通したいPATH`  
+
+例えば  
+`export PATH=$PATH:/Users/beagle/beagle.21Oct15.abc.jar`
+
+PATHを通しておけば、
+`java -jar beagle.21Oct15.abc.jar`
+と入力するだけで、beagleを実行可能
+
 ***
 
 #### Beagleの入力ファイル
