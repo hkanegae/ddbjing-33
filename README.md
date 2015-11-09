@@ -66,7 +66,7 @@ NGSを用いることで、多数のサンプルをジェノタイピングす�
 また、実験ごとに得られるマーカーが異なる場合があります。
 すべてのマーカーを利用して解析を行うためには、imputationが必要です。　
 
-![imputation](https://github.com/hkanegae/ddbjing-33/blob/master/imputation.jpg)
+![imputation](https://github.com/hkanegae/ddbjing-33/blob/master/Imputation.jpg)
 
 - マーカーセットが異なるデータを用いる場合  
 
