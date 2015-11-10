@@ -61,15 +61,15 @@ __GL__ : genotype likelihoods comprised of comma separated floating point log10-
 -  Format GT vcf file
 
 `java -jar beagle.21Oct15.abc.jar gt="Sbicolor_255_1000snp.vcf" out="Sbicolor_255_out"`  
- testdata sorghum vcf file [こちら](https://github.com/hkanegae/ddbjing-33/blob/master/testdata/Sbicolor_255_1000snp.vcf)からダウンロード可能
+ testdata sorghum vcf file [こちら](https://raw.githubusercontent.com/hkanegae/ddbjing-33/master/testdata/Sbicolor_255_1000snp.vcf)から閲覧可能
   - [Sbicolor_255_1000snp.vcf](https://github.com/hkanegae/ddbjing-33/blob/master/testdata/Sbicolor_255_1000snp.vcf)
   - [phytozome sorghum v.2.1](http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Sbicolor)
   - SNP数 3,699,951のうち、1000snpのみを取り出したファイル
   - 22系統
   - 出力されるファイル　
-   - [Sbicolor_255_out.log](https://github.com/hkanegae/ddbjing-33/blob/master/testdata/Sbicolor_255_out.log)
-   - [Sbicolor_255_out.warnings](https://github.com/hkanegae/ddbjing-33/blob/master/testdata/Sbicolor_255_out.warnings)
-   - [Sbicolor_255_out.vcf.gz](https://github.com/hkanegae/ddbjing-33/blob/master/testdata/Sbicolor_255_out.vcf) <- imputed file
+   - [Sbicolor_255_out.log](https://raw.githubusercontent.com/hkanegae/ddbjing-33/master/testdata/Sbicolor_255_out.log)
+   - [Sbicolor_255_out.warnings](https://raw.githubusercontent.com/hkanegae/ddbjing-33/master/testdata/Sbicolor_255_out.warnings)なにも書かれていません。
+   - [Sbicolor_255_out.vcf.gz](https://raw.githubusercontent.com/hkanegae/ddbjing-33/master/testdata/Sbicolor_255_out.vcf) <- imputed file
 
 リファレンスパネルを利用した欠測の補完
 -  Running test analysis with \"ref=\" argument  
