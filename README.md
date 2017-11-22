@@ -7,6 +7,7 @@
 ###### 東京大学大学院農学生命科学研究科 生産・環境生物学専攻 生物測定学研究室 特任研究員  
 ###### 鐘ケ江　弘美  
 
+###### Imputation関連の最新の資料はこちらのslideshare(https://www.slideshare.net/HiromiKanegae/ngs-81948750?qid=79b6acb5-607f-46ad-baa8-5cdb3630131f&v=&b=&from_search=2)にございますので、よろしければご利用ください
 ***
 
 これは第33回 DDBJing 講習会 in 東京の講義資料です。  
